@@ -1,17 +1,17 @@
 package datastructure;
 
 public class main {
-    public static void main(String[] args) {
-        System.out.println("Welcome To Linked list !!!!");
-        LinkedList linkedList = new LinkedList();
-        linkedList.addLast(56);
-        linkedList.addLast(70);
-        linkedList.addMiddle(30,56);
-        linkedList.display();
-        linkedList.deleteFirst();
-        linkedList.display();
+        public static void main(String[] args) {
+            System.out.println("Welcome To Linked list !!!!");
+            LinkedList linkedList = new LinkedList();
+            linkedList.addLast(56);
+            linkedList.addLast(70);
+            linkedList.addMiddle(30,56);
+            linkedList.display();
+            linkedList.deleteLast();
+            linkedList.display();
 
 
-    }
+        }
 
 }
